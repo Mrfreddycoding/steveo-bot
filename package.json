@@ -1,0 +1,13 @@
+{
+  "name": "steveo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "opusscript": "0.0.6"
+  }
+}
