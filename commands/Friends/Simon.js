@@ -5,7 +5,7 @@ class SimonFriendCommand extends commando.Command
     constructor(client)
     {
         super(client,{
-            name: 'Simon',
+            name: 'simon',
             group: 'friends',
             memberName: 'simon',
             description: "Describes a good of the bot's owner"
