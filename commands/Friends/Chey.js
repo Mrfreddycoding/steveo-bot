@@ -7,7 +7,7 @@ class CheyFriendCommand extends commando.Command
         super(client,{
             name: 'chey',
             group: 'friends',
-            memberName: 'Chey',
+            memberName: 'chey',
             description: "Describes an amazing friend of the bot's maker"
         })
     }
