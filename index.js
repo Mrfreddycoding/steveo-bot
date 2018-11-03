@@ -4,6 +4,7 @@ const bot = new Commando.Client({
     owner: '269495733613363200'
 });
 
+bot.registry.registerGroup('friends', 'Friends');
 bot.registry.registerGroup('moderation', 'Moderation');
 bot.registry.registerGroup('random', 'Random');
 bot.registry.registerDefaults();
