@@ -14,7 +14,7 @@ class CheyFriendCommand extends commando.Command
 
     async run(message, args)
     {
-        console.log('Chey is a beautiful amazing girl who deserves so much love!')
+        message.channel.send('Chey is a beautiful amazing girl who deserves so much love!')
     }
 }
 
