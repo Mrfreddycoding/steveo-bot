@@ -1,4 +1,4 @@
-const Commando = require('discord.js-commando');
+const commando = require('discord.js-commando');
 
 class CheyFriendCommand extends commando.Command
 {
