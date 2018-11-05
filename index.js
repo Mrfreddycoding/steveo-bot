@@ -10,6 +10,8 @@ bot.registry.registerGroup('random', 'Random');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + '/commands');
 
+bot.user.setActivity("Online!");
+
 bot.on('ready',function(){
     console.log('Bot Online!')
 })
