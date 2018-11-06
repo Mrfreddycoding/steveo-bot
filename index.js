@@ -4,7 +4,7 @@ const bot = new Commando.Client({
     owner: "269495733613363200"})
 
 bot.on('ready', () => {
-    client.user.setActivity('Work in progress!');
+    bot.user.setActivity('Work in progress!');
 });
 
 bot.registry.registerGroup('music', 'Music');
