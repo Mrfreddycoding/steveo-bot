@@ -3,6 +3,10 @@ const bot = new Commando.Client({
     commandPrefix: '*',
     owner: "269495733613363200"})
 
+bot.on('ready', () => {
+    client.user.setActivity('Work in progress!');
+});
+
 bot.registry.registerGroup('music', 'Music');
 bot.registry.registerGroup('friends', 'Friends');
 bot.registry.registerGroup('moderation', 'Moderation');
