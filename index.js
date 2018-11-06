@@ -16,4 +16,4 @@ bot.on('ready',function(){
     console.log('Bot Online!')
 })
 
-bot.login(process.evn.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
