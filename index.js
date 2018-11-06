@@ -1,6 +1,6 @@
 const Commando = require('discord.js-commando');
-const bot = new Commando.Client();
-const TOKEN = 'NTAzMzExNzEyODkyNjE2NzE4.Dr5wrA.Ik9eiabNlMZUDD4gBo8DViOaFUs'
+const bot = new Commando.Client({
+    owner: "269495733613363200")
 
 bot.registry.registerGroup('music', 'Music');
 bot.registry.registerGroup('friends', 'Friends');
@@ -15,4 +15,4 @@ bot.on('ready',function(){
     console.log('Bot Online!')
 })
 
-bot.login(TOKEN);
+bot.login(process.evn.BOT_TOKEN);
