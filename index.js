@@ -1,6 +1,6 @@
 const Commando = require('discord.js-commando');
 const bot = new Commando.Client({
-    owner: "269495733613363200")
+    owner: "269495733613363200"})
 
 bot.registry.registerGroup('music', 'Music');
 bot.registry.registerGroup('friends', 'Friends');
