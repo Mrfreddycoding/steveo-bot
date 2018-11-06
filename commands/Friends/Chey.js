@@ -8,13 +8,13 @@ class CheyFriendCommand extends commando.Command
             name: 'chey',
             group: 'friends',
             memberName: 'chey',
-            description: "Describes an amazing friend of the bot's maker"
+            description: "I dont have weirds for her"
         })
     }
 
     async run(message, args)
     {
-        message.channel.send('Chey is a beautiful amazing girl who deserves so much love!')
+        message.channel.send("I am sorry, I am so sorry! I didn't mean to cause all of this!")
     }
 }
 
