@@ -8,7 +8,7 @@ class CheyFriendCommand extends commando.Command
             name: 'chey',
             group: 'friends',
             memberName: 'chey',
-            description: "I dont have weirds for her"
+            description: "I dont have words for her"
         })
     }
 
