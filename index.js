@@ -7,6 +7,7 @@ bot.on('ready', () => {
     bot.user.setActivity('Work in progress!');
 });
 
+bot.registry.registerGroup('repuatation', 'Repuatation');
 bot.registry.registerGroup('music', 'Music');
 bot.registry.registerGroup('friends', 'Friends');
 bot.registry.registerGroup('moderation', 'Moderation');
